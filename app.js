@@ -31,7 +31,7 @@ async function getData(cityName) {
     tempdiv.style.color="#04054d"
    }
 
-   if(weatherData.weather[0].main === "Clear sky"){
+   if(weatherData.weather[0].main === "Clear"){
    imagediv.src="sun.png"
 
    }
