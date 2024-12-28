@@ -27,6 +27,8 @@ async function getData(cityName) {
 
    if(Math.round(temperature)>30){
     tempdiv.style.color="orange"
+   }else{
+    tempdiv.style.color="#04054d"
    }
 
    if(weatherData.weather[0].main === "Clear sky"){
