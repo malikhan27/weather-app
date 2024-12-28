@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid mt-2">
+        <div class="search-box d-flex gap-2 justify-content-center mt-0 mb-3">
+            <input class="form-control w-50" type="text" id="cityInput" placeholder="Enter city name">
+            <button onclick="searchCity()">Search</button>
+        </div>
+    </div>
+    <div class="container mb-3">
+        <div class="main">
+            <div class="d-flex justify-content-center flex-column-reverse gap-2 mt-2">
+                <div class="weather-box">
+                    <h1 id="city" class="city-name">New York</h1>
+                    <div class="weather-info">
+                        <p id="temp" class="temperature">22°C</p>
+                        <p id="cond" class="condition">Clear Sky</p>
+                    </div>
+                    <div class="extra-info">
+                        <p id="humid">Humidity: 65%</p>
+                        <p id="windspeed">Wind Speed: 5 m/s</p>
+                    </div>
+                </div>
+                <div class="image-div">
+                    <img data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine" 
+                    data-aos-duration="1000" style="height: 250px; width: 250px;" id="image" src="" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="bundle.js"></script>
+    <script src="popper.js"></script>
+    <script src="https://kit.fontawesome.com/9ac5fe7ab7.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

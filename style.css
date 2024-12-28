@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+        font-family: Arial, sans-serif;
+        height: auto;
+        background-image: url(sky-background-video-conferencing_23-2148623068.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #333;
+       
+    
+    
+}
+
+/* Container for weather app */
+.main {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(215, 219, 235, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(48, 49, 54, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    color: black;
+    text-shadow: 1px 1px rgb(155, 141, 141);
+    font-weight: bolder;
+}
+
+/* Weather box */
+.weather-box {
+    margin-bottom: 20px;
+}
+
+.city-name {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bold;
+    color: #074786;
+}
+
+.weather-info {
+    margin: 10px 0;
+}
+
+.temperature {
+    font-size: 3em;
+    color: #04054d;
+}
+
+.condition {
+    font-size: 1.2em;
+    color: #2b2c2c;
+}
+
+.extra-info {
+    font-size: 1em;
+    color: #2b2c2c;
+}
+
+
+
+.search-box input {
+    font-size: 1em;
+    border: 2px solid #c5e6fc;
+    border-radius: 10px;
+}
+
+.search-box button {
+    padding: 5px 20px;
+    font-size: 1em;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #3498db;
+}
+
